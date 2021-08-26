@@ -26,7 +26,7 @@ public class TaskTwo {
             }
         }
 
-        for(Map.Entry m:result.entrySet()){
+        for (Map.Entry m:result.entrySet()) {
             System.out.println(m.getKey()+" - "+m.getValue());
         }
     }

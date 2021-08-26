@@ -20,8 +20,5 @@ public class TaskThree {
         } catch (Exception e) {
             e.printStackTrace();
         }
-
-
-
     }
 }
