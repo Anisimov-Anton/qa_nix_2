@@ -16,9 +16,7 @@ public class ReverseSubstring {
         String reverseSubstring = "";
 
         for (int i = substring.length() - 1; i > -1; i--) {
-
             reverseSubstring += substring.charAt(i);
-
         }
 
         String result = words[0] + reverseSubstring + words[1];

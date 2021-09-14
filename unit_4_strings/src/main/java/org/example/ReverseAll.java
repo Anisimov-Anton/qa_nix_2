@@ -12,9 +12,7 @@ public class ReverseAll {
         String result = "";
 
         for (int i = newString.length() - 1; i > -1; i--) {
-
             result += newString.charAt(i);
-
         }
 
         System.out.println("Result = " + result);
